@@ -1,15 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import Counter from './components/Counter.jsx'
-import logo from './logo.svg';
+import React, { useEffect } from 'react';
+import Counter from './components/Counter.js'
 import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   useEffect(() => {
-    document.title = `you clicked ${count} times`
+    document.title = 'happy today!'
   })
-
   return (
     <div className="App">
       <header className="App-header">
